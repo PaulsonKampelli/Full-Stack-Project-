@@ -3,7 +3,7 @@ import axios from 'axios';
 import TagView from './components/TagView';
 import { Download, Save, Plus } from 'lucide-react';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = '/api';
 
 const DEFAULT_TREE = {
   name: 'root',
